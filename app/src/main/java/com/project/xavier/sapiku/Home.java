@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 import com.project.xavier.sapiku.Adapter.Peternak;
@@ -17,7 +18,7 @@ import java.util.List;
 
 public class Home extends AppCompatActivity {
 
-    private TextView mTextMessage;
+    private TextView mTextMessage, id_sapi;
     private List<Peternak> mPeternak = new ArrayList<>();
     private RecyclerView recyclerView;
     private PeternakAdapter peternakAdapter;
@@ -48,6 +49,8 @@ public class Home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        id_sapi = findViewById(R.id.id_sapi);
 
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
