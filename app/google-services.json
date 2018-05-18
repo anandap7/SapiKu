@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "798737890276",
+    "firebase_url": "https://sapiku-8638d.firebaseio.com",
+    "project_id": "sapiku-8638d",
+    "storage_bucket": "sapiku-8638d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798737890276:android:fa9607856fc3c191",
+        "android_client_info": {
+          "package_name": "com.project.xavier.sapiku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798737890276-p3f9hklscpc8v99v9qigs0jl5geccele.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.xavier.sapiku",
+            "certificate_hash": "1bd4a46de63db593fd188d574771780fddc3314a"
+          }
+        },
+        {
+          "client_id": "798737890276-nnqql9agnappsb9uq7hf40774bc4kvt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_dKLp42klZPD0F1gOfvgrsEltV-anZbY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798737890276-nnqql9agnappsb9uq7hf40774bc4kvt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/list"
+        android:icon="@mipmap/list"
+        android:title="Daftar Peternak" />
+
+    <item
+        android:id="@+id/near"
+        android:icon="@mipmap/location"
+        android:title="Sapi Terdekat" />
+
+    <item
+        android:id="@+id/filter"
+        android:icon="@mipmap/filter"
+        android:title="Filter" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@mipmap/history"
+        android:title="Riwayat" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@mipmap/profile"
+        android:title="Profil" />
+
+</menu>
