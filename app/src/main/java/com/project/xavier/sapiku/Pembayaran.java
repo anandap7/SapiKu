@@ -6,9 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Detail extends AppCompatActivity {
+public class Pembayaran extends AppCompatActivity {
 
-    private Button go_confirm;
+    private Button go_home;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,14 +16,12 @@ public class Detail extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setLogo(R.drawable.logo);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
-        setContentView(R.layout.activity_detail);
+        setContentView(R.layout.activity_pembayaran);
 
-        go_confirm = (Button)findViewById(R.id.go_confirm);
-        go_confirm.setOnClickListener(new View.OnClickListener() {
+        go_home = (Button) findViewById(R.id.back_home);
+        go_home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent move = new Intent(Detail.this, Konfirmasi.class);
-                startActivity(move);
                 finish();
             }
         });

@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="id_sapi"
-                android:textColor="@null"/>
+                android:visibility="gone"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -74,7 +74,7 @@
                         android:text="Rp.5000000"/>
 
                     <Button
-                        android:id="@+id/detail_button"
+                        android:id="@+id/go_detail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Detail"/>

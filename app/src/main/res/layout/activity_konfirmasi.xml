@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.xavier.sapiku.Konfirmasi">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/info_pembeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail Diri Anda"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/nama_pembeli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama :"
+                style="@style/CodeFont"/>
+
+            <TextView
+                android:id="@+id/alamat_pembeli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat :"
+                style="@style/CodeFont"/>
+
+            <TextView
+                android:id="@+id/email_pembeli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                style="@style/CodeFont"/>
+
+            <TextView
+                android:id="@+id/no_telp_pembeli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor Telepon :"
+                style="@style/CodeFont"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_pembeli"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail Pembelian"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:background="@color/colorPrimary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/image_2"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/hutan"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini Wallpaper"
+                        android:layout_gravity="center"
+                        style="@style/CodeFont"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/jenis_sapi"
+                        android:text="Jenis :"
+                        style="@style/CodeFont"
+                        android:layout_gravity="left"/>
+
+                    <TextView
+                        android:id="@+id/umur_sapi_2"
+                        android:text="Umur :"
+                        style="@style/CodeFont"
+                        android:layout_gravity="left"/>
+
+                    <TextView
+                        android:id="@+id/alamat_peternak"
+                        android:text="Alamat :"
+                        style="@style/CodeFont"
+                        android:layout_gravity="left"/>
+
+                    <TextView
+                        android:id="@+id/gender_sapi"
+                        android:text="Gender :"
+                        style="@style/CodeFont"
+                        android:layout_gravity="left"/>
+
+                    <TextView
+                        android:id="@+id/harga_sapi_2"
+                        android:text="Harga :"
+                        style="@style/CodeFont"
+                        android:layout_gravity="left"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/go_pay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="Lanjut Bayar"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:background="#FF9800"/>
+</RelativeLayout>

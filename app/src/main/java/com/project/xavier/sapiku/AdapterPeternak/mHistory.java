@@ -1,23 +1,21 @@
-package com.project.xavier.sapiku.Adapter;
+package com.project.xavier.sapiku.AdapterPeternak;
 
 /**
  * Created by a_pri on 5/18/2018.
  */
 
-public class Peternak {
-    private String mGambar, mNama, mUmur, mHarga;
+public class mHistory {
+    private String mId, mGambar, mNama, mUmur, mHarga;
 
-    public Peternak(String mGambar, String mNama, String mUmur, String mHarga) {
-        this.mGambar = mGambar;
+    public mHistory(String mId, String mNama, String mUmur, String mHarga) {
+        this.mId = mId;
         this.mNama = mNama;
         this.mUmur = mUmur;
         this.mHarga = mHarga;
     }
 
-    public Peternak(String mNama, String mUmur, String mHarga) {
-        this.mNama = mNama;
-        this.mUmur = mUmur;
-        this.mHarga = mHarga;
+    public String getmId() {
+        return mId;
     }
 
     public String getmGambar() {
